@@ -112,7 +112,7 @@ const SongPayer = ({ data, handleChange,currentIndex }: List) => {
 
   return (
     <Layout>
-      <div className="flex justify-center items-center  lg:w-[480px] h-[690px] text-white mx-20 lg:mx-[160px]  md:my-[100px] w-full md:p-0 p-8">
+      <div className="flex justify-center items-center  lg:w-[480px] h-[690px] text-white md:mx-20 lg:mx-[160px]  md:my-[100px] w-full md:p-0 p-8">
         <div className=" w-full ">
           <h1 className="text-4xl">{data?.name ?? "No Song"}</h1>
           <p className="text-lg text-[#ffffffa2]">

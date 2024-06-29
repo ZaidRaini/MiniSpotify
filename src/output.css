@@ -997,6 +997,11 @@ video {
     margin-right: 160px;
   }
 
+  .md\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
   .md\:h-\[480px\] {
     height: 480px;
   }
